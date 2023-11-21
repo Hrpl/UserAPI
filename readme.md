@@ -1,7 +1,7 @@
 # Получение имя пользователя через его Id, с помощью WebApi
 
 ## Листинг API <br>
-```C#
+``` csharp
 List<User> users = new List<User>
 {
     new() { Id = "1", Name = "Tom", Password = "37" },
@@ -73,7 +73,7 @@ public class User
 }``` <br>
 
 ## Листинг WPF
-```C#
+``` csharp
 using NewApp2.Models;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -135,7 +135,7 @@ namespace WpfAPIDesktop
 }```
 
 ## Модель данных
-```C#
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
