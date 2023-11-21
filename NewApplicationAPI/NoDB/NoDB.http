@@ -1,0 +1,6 @@
+@NoDB_HostAddress = http://localhost:5128
+
+GET {{NoDB_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
