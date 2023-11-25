@@ -44,10 +44,10 @@ namespace WpfAPIDesktop
 
             using HttpClient client = new HttpClient(sock);
 
-            HttpResponseMessage response = await client.GetAsync("https://localhost:7154/api/users/4");
+            HttpResponseMessage response = await client.GetAsync("https://localhost:7154/api/users/1");
             if (response.IsSuccessStatusCode)
             {
-                var user = await client.GetFromJsonAsync<User>("https://localhost:7154/api/users/4");
+                var user = await client.GetFromJsonAsync<User>("https://localhost:7154/api/users/1");
                 return user;
             }
             else
